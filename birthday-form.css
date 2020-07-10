@@ -1,0 +1,135 @@
+h1{
+    color:olivedrab;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    text-shadow: 3px 2px lightblue;
+}
+
+h2{
+    text-shadow: 3px 2px lightblue;
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    background-size:static;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorful{
+    0%{
+        background-color: khaki;
+    }
+    25%{
+        background-color: grey;
+    }
+    50%{
+        background-color: lightsalmon;
+    }
+    100%{
+        background-color: lightgreen;
+    }
+}
+
+
+@keyframes example{
+    0%{
+        background-color: papayawhip;
+    }
+    25%{
+        background-color: peru;
+    }
+    50%{
+        background-color: grey;
+    }
+    100%{
+        background-color: pink;
+    }
+}
+
+header{
+    padding: 1rem;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    position: center;
+    float:center;
+}
+#my-form{
+    padding: 2rem;
+    background:grey;
+    border-radius: 1rem;
+    animation-name: colorful;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#my-form label{
+    display: block;
+}
+
+#my-form input[type='birthmonth']{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#my-form input[type='text']{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.btn{ display:block;
+width: 100%;
+padding: 10px 15px;
+border: 0;
+background:orangered;
+color: #fff;
+border-radius: 5px;
+margin: 5px 0;
+}
+
+
+.btn:hover{
+    background:olivedrab;
+}
+.bg-dark{
+    background: #333;
+    color:#fff;
+
+}
+
+.success{
+    background-color: green;
+    color:black;
+    padding:5px;
+    margin:5px;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+.error {
+    background: grey;
+    color:#fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
